@@ -86,9 +86,11 @@ void car_back()
 }
 
 // Code for the car to brake
-void car_brake()
-{
-  
+void car_brake() {
+  digitalWrite(ML_Ctrl, LOW);
+  analogWrite(ML_PWM,0);
+  digitalWrite(MR_Ctrl, LOW);
+  analogWrite(MR_PWM,0);
 }
 
   
