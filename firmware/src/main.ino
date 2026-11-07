@@ -24,6 +24,21 @@ void loop(){
     // TODO
     // Write code that handles the BLE_val and responds accordingly i.e. if the value is F go forward
     // Optional: Write something that stops forward from working if the sensor detects something in front
+    switch(BLE_val)
+    {
+      case 'F':
+        car_front();
+        break;
+      case 'B':
+        break;
+      case 'L':
+        car_left();
+        break;
+      case 'R':
+        car_right();
+        break;
+    }
+      
 }
 
 // A motor corresponds to moving left, right motors
