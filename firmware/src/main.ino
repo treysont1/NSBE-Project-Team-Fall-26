@@ -37,6 +37,9 @@ void loop(){
       case 'R':
         car_right();
         break;
+      case 'S':
+        car_brake();
+        break;
     }
       
 }
