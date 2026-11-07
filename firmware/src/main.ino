@@ -69,6 +69,10 @@ void car_left()
 // Code to turn the car to the right
 void car_right()
 {
+  digitalWrite(ML_Ctrl,HIGH);//set direction control pin of B motor to HIGH
+  analogWrite(ML_PWM,200);//set PWM control speed of B motor to 200
+  digitalWrite(MR_Ctrl,LOW);//set direction control pin of A motor to LOW 
+  analogWrite(MR_Ctrl,HIGH);//set PWM control speed of A motor to 200
   
 }
 
