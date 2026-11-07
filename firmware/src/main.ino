@@ -75,7 +75,10 @@ void car_right()
 // Code to reverse
 void car_back()
 {
-
+    digitalWrite(ML_Ctrl,LOW);//set direction control pin of B motor to LOW
+    analogWrite(ML_PWM,200);//set PWM control speed of B motor to 200
+    digitalWrite(MR_Ctrl,LOW);//set direction control pin of A motor to LOW 
+    analogWrite(MR_PWM,200);//set PWM control speed of A motor to 200
 }
 
 // Code for the car to brake
