@@ -60,10 +60,16 @@ void car_back()
 
 }
 
-// Code for the car to stop
-void car_stop()
+// Code for the car to brake
+void car_brake()
 {
   
+}
+
+// Code to handle collision detection (force the car to stop within range)
+void force_car_stop()
+{
+
 }
 
   
