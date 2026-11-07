@@ -30,6 +30,7 @@ void loop(){
         car_front();
         break;
       case 'B':
+        car_back();
         break;
       case 'L':
         car_left();
