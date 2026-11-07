@@ -23,7 +23,7 @@ void loop(){
 
     // TODO
     // Write code that handles the BLE_val and responds accordingly i.e. if the value is F go forward
-  
+    // Optional: Write something that stops forward from working if the sensor detects something in front
 }
 
 // A motor corresponds to moving left, right motors
@@ -64,12 +64,6 @@ void car_back()
 void car_brake()
 {
   
-}
-
-// Code to handle collision detection (force the car to stop within range)
-void force_car_stop()
-{
-
 }
 
   
